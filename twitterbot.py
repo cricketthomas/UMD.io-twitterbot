@@ -46,7 +46,7 @@ def main():
     print('tweeted')
 while True:
     tweet()
-time.sleep(1440)  # 1 sec
+time.sleep(1000)  # 1 sec
 
 if __name__ == "__main__":
     main()
