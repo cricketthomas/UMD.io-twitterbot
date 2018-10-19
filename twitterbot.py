@@ -29,10 +29,10 @@ t = tweets.replace("(","").replace(")","").replace("'","").replace(",","")
 
 
 def tweet():
-    consumer_key = '0FkoxnMa4hrz4ap4AaQVbZJVp'
-    consumer_secret = 'cy3kKQ5Kn7XsIsF52epal1wEHkX1P9AP54r9CLS2vYapbC1SA2'
-    access_key = '827360244720422914-A5IbOcT4Ys2G8l52uOLmWiU5gJnozM4'
-    access_secret = 'wyIpTcebRZBg9xndkjZ2AlGPXJA1Ubx2olFHpQ5RxSA9Y'
+    consumer_key = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+    consumer_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+    access_key = 'XXXXXXXXXXXXXXXXX-XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
+    access_secret = 'XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX'
     auth = tweepy.OAuthHandler(consumer_key, consumer_secret)
     auth.set_access_token(access_key, access_secret)
     api = tweepy.API(auth)
